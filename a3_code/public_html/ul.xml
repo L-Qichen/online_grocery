@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<userlist>
+    <user>
+        <fname>Qichen</fname>
+        <pw>123</pw>
+        <type>admin</type>
+
+    </user>
+    <user>
+        <fname>Mingyu</fname>
+
+        <pw>456</pw>
+        <type>admin</type>
+    </user>
+    <user>
+      <fname>Peng</fname>
+
+      <pw>789</pw>
+      <type>client</type>
+
+    </user>
+    <user>
+      <fname>abc</fname>
+
+      <pw>123</pw>
+      <type>admin</type>
+
+    </user>
+  <user><fname>ddd</fname><pw>111</pw><type/></user><user><fname>ddd</fname><pw>111</pw><type>admin</type></user><user><fname>qqq</fname><pw>111</pw><type>admin</type></user><user><fname>qqq</fname><pw>111</pw><type>admin</type></user><user><fname>qqq</fname><pw>111</pw><type>admin</type></user><user><fname>johnny</fname><pw>222</pw><type>admin</type></user><user><fname>johnny</fname><pw>222</pw><type>admin</type></user><user><fname>johnny</fname><pw>222</pw><type>admin</type></user><user><fname>rrr</fname><pw>123</pw><type>client</type></user><user><fname>new</fname><pw>111</pw><type>admin</type></user><user><fname>new</fname><pw>111</pw><type>admin</type></user><user><fname>johnny</fname><pw>111</pw><type>client</type></user><user><fname>johnny</fname><pw>111</pw><type>client</type></user><user><fname>johnny</fname><pw>111</pw><type>client</type></user><user><fname>Toby</fname><pw>12345</pw><type>admin</type></user><user><fname>Toby</fname><pw>12345</pw><type>admin</type></user><user><fname>Ben</fname><pw>99999</pw><type>client</type></user><user><fname>wahaha</fname><pw>111</pw><type>admin</type></user><user><fname>Jack</fname><pw>00000</pw><type>client</type></user><user><fname>yuzhu</fname><pw>123</pw><type>admin</type></user><user><fname>fu_zhai</fname><pw>fg</pw><type>admin</type></user><user><fname>fdg</fname><pw>fdg</pw><type>admin</type></user><user><fname/><pw/><type>admin</type></user><user><fname/><pw/><type>admin</type></user><user><fname>df</fname><pw>fg</pw><type>admin</type></user><user><fname>fdg</fname><pw>fdg</pw><type>client</type></user><user><fname>G_MINGYU</fname><pw>123456</pw><type>admin</type></user><user><fname>G_MINGYU</fname><pw>123456</pw><type>admin</type></user><user><fname>sdf</fname><pw>dsf</pw><type>admin</type></user><user><fname>sdf</fname><pw>kjb</pw><type>admin</type></user><user><fname>peng</fname><pw>111</pw><type>admin</type></user></userlist>

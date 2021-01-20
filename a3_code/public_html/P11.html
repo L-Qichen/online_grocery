@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>order list</title>
+    <link rel="stylesheet" type="text/css" href="P11.css" />
+</head>
+<body>
+    
+    <div class="container clearfix">
+       
+
+        <div class="leftbar">
+            
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+
+                <li><a href="p11.html">Orders</a></li>
+                <li><a href="p9userlist.html">User list</a></li>
+                <li class="productlist">
+                    <a href="p7.html">Product list</a>
+                   
+                </li>
+            </ul>
+            
+        </div>
+        <div class="rightarea">
+            <div class="functions clearfix">
+                <h3>Order list</h3>
+                <form class="category">
+                    <input list="category" name="category" placeholder="baverage"/>
+                    <datalist id="category">
+                        <option value="Fruits">
+                        <option value="Vegetables">
+                        <option value="Meat">
+                        <option value="Baverage">
+                        <option value="Dairy&Eggs">
+                        <option value="Fish">
+                    </datalist>
+                    <input type="submit" value="submit" />
+                </form>
+               
+              
+                <input class="add" type="button" value="+ Add product" />
+            </div>
+            <!--<div class="filtersection"></div>-->
+            <table>
+                <tr class="title">
+                    <th></th>
+
+                    <th>Product image</th>
+                    <th>Product name</th>
+                    <th>Item number</th>
+                    <th>Price</th>
+                    <th>Inventory/Qty</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="baverage" value="Coca Cola" /></td>
+                    <td class="image"><img src="Coca-Cola-Zero-330ml-Can.jpg" alt="Coca Cola" /></td>
+                    <td>Coca Cola</td>
+                    <td>00001</td>
+                    <td>$1.99</td>
+                    <td>5</td>
+                    <td class="action">
+                        <input class="delete" type="button" value="delete" />
+                        <input type="button" value="edit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="baverage" value="Sprite" /></td>
+                    <td class="image"><img src="Sprite.png" alt="Sprite" /></td>
+                    <td>Sprite</td>
+                    <td>00002</td>
+                    <td>$1.99</td>
+                    <td>3</td>
+                    <td class="action">
+                        <input class="delete" type="button" value="delete" />
+                        <input type="button" value="edit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="baverage" value="High-Brew-Espresso" /></td>
+                    <td class="image"><img src="High-Brew-Espresso.jpg" alt="High-Brew-Espresso" /></td>
+                    <td>High-Brew-Espresso</td>
+                    <td>00003</td>
+                    <td>$4.99</td>
+                    <td>10</td>
+                    <td class="action">
+                        <input class="delete" type="button" value="delete" />
+                        <input type="button" value="edit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="meat" value="chickenbreast" /></td>
+                    <td class="image"><img src="milk.jpg" alt="milk" /></td>
+                    <td>milk</td>
+                    <td>00004</td>
+                    <td>$2.99</td>
+                    <td>8</td>
+                    <td class="action">
+                        <input class="delete" type="button" value="delete" />
+                        <input type="button" value="edit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="meat" value="chickendrumsticks" /></td>
+                    <td class="image"><img src="god ridge.jpg" alt="god ridge" /></td>
+                    <td>God ridge</td>
+                    <td>00005</td>
+                    <td>$1.99</td>
+                    <td>30</td>
+                    <td class="action">
+                        <input class="delete" type="button" value="delete" />
+                        <input type="button" value="edit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="baverage" value="Mocha" /></td>
+                    <td class="image"><img src="Mocha.jpg" alt="Mocha" /></td>
+                    <td>Fresh duck leg</td>
+                    <td>00006</td>
+                    <td>$4.99</td>
+                    <td>3</td>
+                    <td class="action">
+                        <input class="delete" type="button" value="delete" />
+                        <input type="button" value="edit" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

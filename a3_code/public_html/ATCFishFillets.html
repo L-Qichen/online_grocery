@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fresh Foods | Online Delivery</title>
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+    #more {display: none;}
+  .navbar-nav > li{
+        padding-right:70px;
+  }
+
+  .navbar-nav a:hover { color: rgb(238, 15, 15) !important; }
+
+  .footer {
+  position:relative;
+  bottom: 5px;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+  </style>
+  <script>
+    function total(){
+      var total=0;
+      var quantity= parseFloat(document.getElementById("quantity").value);
+      var price = parseFloat(document.getElementById("price").innerHTML);
+      total=quantity*price;
+      document.getElementById("total").innerHTML=total.toFixed(2);
+      //alert(total.toFixed(2))
+    }
+    function showMoreLess() {
+        var more = document.getElementById("more");
+        var descTitle = document.getElementById("descTitle");
+        var dots = document.getElementById("dots");
+        if (dots.style.display === "none") 
+        {
+          more.style.display = "none";
+          dots.style.display="inline";
+          descTitle.innerHTML="Show More";
+        }
+        else 
+        {
+          more.style.display = "inline";
+          descTitle.innerHTML="Show Less";
+          dots.style.display="none";
+        }
+    }
+  </script>
+</head>
+<body>
+    <div class="row p-2 bg-white">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <span>
+                <a href="index.html"><img src="freeLogo.jpeg" height="80%" width="10%"></a>
+                <a href="index.html"><img src="FreshFoods.PNG" height="70%" width="10%"></a>
+            </span>
+            <span class="float-right">
+                <span>
+                    <a href="" class="text-dark">My Account</a>
+                    &emsp;
+                    <a href="" class="text-dark">My Cart</a>
+                    &emsp;
+                    <a href="" class="text-dark">Login</a>
+                    &emsp;
+                </span>
+                <a href="" class="text-dark">En </a>|
+                <a href="" class="text-dark">Fr</a>
+            </span>
+            
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    
+
+    <!--Menu Bar-->
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <nav class="navbar navbar-expand-sm bg-white navbar-light font-weight-bold border-top border-bottom">
+                <ul class="navbar-nav">
+                  <li>
+                    <a class="text-dark" href="index.html">HOME</a>
+                  </li>
+                  <li>
+                    <a class="text-dark" href="#">ORDERS</a>
+                  </li>
+                  <li>
+                    <a class="text-dark" href="#">USERS LIST</a>
+                  </li>
+                  <li>
+                    <a class="text-dark" href="#">PRODUCT LIST</a>
+                  </li>
+                  <li class="dropdown ">
+                    <a class="text-dark"class="dropdown-toggle" data-toggle="dropdown" href="#">AISLES
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="text-dark" href="fruits.html">FRUITS</a></li>
+                      <li><a class="text-dark" href="vegetables.html">VEGETABLES</a></li>
+                      <li><a class="text-dark" href="dairyEggs.html">DAIRY AND EGGS</a></li>
+                      <li><a class="text-dark" href="p2fish.html">FISH</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+         <!--Menu Bar end-->     
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+
+    <br>
+   
+    <!--Image and description-->
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+            <img src="fishFillets.PNG" class="img-rounded image p-2" style="width: 100%;">
+        </div>
+        <div class="col-sm-4">
+            <h1>Fish Fillets</h1>
+            <h3>Price: $<span id="price">0.99</span>/kg</h3>
+            <h6>Item Number: FI00002</h6>
+            <h6>Quantity: </h6>
+            <input id="quantity" type="text">
+            <button type="button" onclick="total()" class="btn btn-success">Submit</button>
+            <h6>Total: <span id="total"></span></h6>
+            <br><br>
+            
+            <button type="button" class="btn btn-success" name="AddToCart">Add to Cart</button>
+            <br>
+            <h6>Description</h6>
+            <p>A fish fillet, from the French word filet<span id="dots">...</span><span id="more">  (pronounced [filɛ]) meaning a thread or strip, is the flesh of a fish which has been cut or sliced away from the bone by cutting lengthwise along one side of the fish parallel to the backbone. In preparation for filleting, any scales on the fish should be removed.</span></p>
+            <button onclick="showMoreLess()" id="descTitle">Show More</button>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    
+
+    <br>
+    <!--footer-->
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 ">
+            <footer class="footer">
+                <div class="row font-weight-bold">
+                    <div class="col-sm-3">ONLINE</div>
+                    <div class="col-sm-3">PROMOTIONS</div>
+                    <div class="col-sm-3">JOBS</div>
+                    <div class="col-sm-3">ABOUT</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"><a href="" class="text-white">Online Grocery</a></div>
+                    <div class="col-sm-3"><a href="" class="text-white">NewsLetter</a></div>
+                    <div class="col-sm-3"><a href="" class="text-white">Careers</a></div>
+                    <div class="col-sm-3"><a href="" class="text-white">Press</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"><a href="" class="text-white">Mobile App</a></div>
+                    <div class="col-sm-3"><a href="" class="text-white">Rewards</a></div>
+                    <div class="col-sm-3"><a href="" class="text-white"></a></div>
+                    <div class="col-sm-3"><a href="" class="text-white">Donation</a></div>
+                </div>
+                <br>
+                <div class="float-right text-dark" style="font-size: 12px;">
+                    Copyright &copy; 2020 Fresh Foods
+                </div>
+            </footer>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    
+
+
+</body>
+</html>
+ 

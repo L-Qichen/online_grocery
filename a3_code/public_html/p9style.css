@@ -1,0 +1,106 @@
+﻿
+
+
+
+.clearfix::after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+
+
+.container {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+    .container .leftbar {
+        width: 15%;
+        height: 800px;
+        background-color: #05386b;
+        float: left;
+        text-align: center;
+    }
+
+        .container .leftbar ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+            .container .leftbar ul li {
+                list-style-type: none;
+                line-height: 30px;
+                border-bottom: dotted 1px gray;
+            }
+
+                .container .leftbar ul li a {
+                    color: #edf5e1;
+                    font-size: 20px;
+                    text-decoration: none;
+                    font-family: Cambria;
+                }
+
+.rightarea {
+    width: 85%;
+    height: 800px;
+    float: left;
+}
+
+.functions {
+    width: 100%;
+    height: auto;
+    background-color: #05386b;
+}
+
+    .functions h3 {
+        margin: 0px;
+        padding: 0px;
+        color: #edf5e1;
+        margin-left: 5%;
+        padding-top: 1%;
+    }
+    
+    .functions > a > input {
+        margin-top: 15px;
+        background-color: #5cdb95;
+        height: 25px;
+        border: none;
+        box-shadow: 1px 1px black;
+        margin-bottom: 15px;
+        margin-left:5%;
+        
+    }
+
+table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.rightarea img {
+    width: 30%;
+    height: auto;
+}
+
+.action input {
+    width: 80%;
+    background-color: lightgreen;
+}
+
+    .action input.delete {
+        background-color: lightcoral;
+    }

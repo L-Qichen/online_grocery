@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<userlist>
+    <user>
+        <fname>Qichen</fname>
+        <lname>Liu</lname>
+        <email>liuqichen@gmail.com</email>
+        <phone>5145556666</phone>
+        <address>551 Rue westmount</address>
+        <count>1</count>
+    </user>
+    <user>
+        <fname>Mingyu</fname>
+        <lname>Gao</lname>
+        <email>gaomingyu@gmail.com</email>
+        <phone>5143332121</phone>
+        <address>78 Rue chinois</address>
+        <count>2</count>
+    </user>
+    <user><fname>Peng</fname><lname>Zhao</lname><email>zhaopeng@gmail.com</email><phone>5144778899</phone><address>456 Montagne</address><count>3</count></user><user><fname>fuqiang</fname><lname>zhai</lname><email>zhaifuqiang@qq.com</email><phone>5145555555</phone><address>canada</address><count>4</count></user><user><fname>Josh</fname><lname>Leo</lname><email>josh@gmail.com</email><phone>5145556767</phone><address>4830 vic</address><count>5</count></user></userlist>

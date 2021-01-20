@@ -1,0 +1,1033 @@
+﻿/*for mobile*/
+@media only screen and (max-width: 800px) {
+
+    .reset {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .clearfix::after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .header {
+        width: 100%;
+        height: 200px;
+        background-image: url(headerback2.jpg);
+        background-size: 100% 100%;
+    }
+
+    .h_top {
+        width: 100%;
+        height: 40px;
+        background-color: #000000;
+    }
+
+    .leftTxt {
+        line-height: 40px;
+    }
+
+
+
+        .leftTxt a {
+            text-decoration: none;
+            color: white;
+            font-size: 10px;
+            float: left;
+            margin-left: 5px;
+        }
+
+    .rightTxt {
+        line-height: 40px;
+    }
+
+
+        .rightTxt li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+            .rightTxt li a {
+                text-decoration: none;
+                color: white;
+                font-size: 10px;
+            }
+
+
+                .rightTxt li a:hover {
+                    color: yellow;
+                }
+
+    .material-icons {
+        margin-right: 3px;
+        font-size: 10px;
+    }
+
+    .botcon {
+        height: 120px;
+    }    
+    
+
+    img.logo {
+        display: block;
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-left: 15%;
+        padding: 35px 0;
+    }
+
+    .searchbar {
+        float: left;
+        margin-left: 10%;
+        line-height: 120px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        height: 20px;
+        font-size: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .menu {
+        height: 40px;
+    }
+
+    .nav li {
+        list-style: none;
+        float: left;
+        line-height: 40px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+        .nav li.first {
+            margin-left: 50px;
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+            .nav li a:hover {
+                color: yellow;
+            }
+
+        .nav li ul.dropdown {
+            position: relative;
+            z-index: 1;
+        }
+
+            .nav li ul.dropdown li {
+                display: none;
+            }
+
+        .nav li:hover .dropdown li {
+            display: block;
+            
+            background-image: url(dropdownback.png);
+        }
+    span:before{
+        content:"";
+        display:block;
+        width:30%;
+        height:1px;
+        background-color:black;
+        position:absolute;
+        left:3%;
+        top:230px;
+        z-index:-2;
+}
+    
+     h3{
+        font-style: italic;
+        font-size: smaller;
+        color: gray;
+        max-width:100px;
+        margin:10px auto;
+        text-align:center;
+    }
+
+    span:after{
+        content: "";
+        display: block;
+        width: 30%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        right: 3%;
+        top: 230px;
+        z-index: -2;
+    }
+
+    .middletop img {
+        border: 1px solid black;
+        margin-top: 2px;
+        width: 100%;
+        height: auto;
+    }
+
+    .middlebot {
+        margin-top: 5px;
+        height: 510px;
+    }
+
+        .middlebot a {
+            text-decoration: none;
+            color: white;
+            margin: 0 auto;
+            font-size: 100%;
+        }
+
+    .firstrow {
+        height: 250px;
+    }
+
+        .firstrow div {
+            box-sizing: border-box;
+            margin-left: 2.5%;
+            width: 30.3%;
+            border: 1px solid black;
+            float: left;
+            text-align: center;
+        }
+
+
+
+    .fruit {
+        line-height: 250px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(fruit.png);
+        background-size: cover;
+    }
+
+
+
+    .vegetable {
+        line-height: 250px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(vegetable.png);
+        background-size: cover;
+    }
+
+
+
+    .meat {
+        line-height: 250px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(meat.png);
+        background-size: cover;
+    }
+
+
+
+    .secondrow {
+        height: 250px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+
+
+        .secondrow div {
+            box-sizing: border-box;
+            margin-left: 2.5%;
+            width: 30.3%;
+            height: 250px;
+            border: 1px solid black;
+            float: left;
+        }
+
+    .baverage {
+        line-height: 250px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(drink.png);
+        background-size: cover;
+    }
+
+    .dairy {
+        line-height: 250px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(dairy.png);
+        background-size: cover;
+        height: auto;
+    }
+
+    .fish {
+        line-height: 250px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(fish.png);
+        background-size: cover;
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+        background-color: #a3a0a0;
+    }
+
+    .foottop {
+        width: 100%;
+        height: 20px;
+        background-color: #1d1b1b;
+    }
+
+    .developer {
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Times New Roman'
+    }
+}
+
+
+/*for tablet*/
+@media only screen and (min-width: 800px) and (max-width:1024px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .reset {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .clearfix::after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .header {
+        width: 100%;
+        height: 200px;
+        background-image: url(headerback2.jpg);
+        background-size: cover;
+    }
+
+    .h_top {
+        width: 100%;
+        height: 40px;
+        background-color: #000000;
+    }
+
+    .topcon {
+        height: 40px;
+        background-color: #000000;
+        clear: both;
+    }
+
+    .topleft {
+        width: 300px;
+        height: 40px;
+    }
+
+
+
+    .leftTxt {
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+        .leftTxt a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+    .topright {
+        width: auto;
+        height: 40px;
+    }
+
+    .rightTxt {
+        line-height: 40px;
+    }
+
+
+        .rightTxt li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+            .rightTxt li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+
+                .rightTxt li a:hover {
+                    color: yellow;
+                }
+
+    .material-icons {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    .botcon {
+        height: 120px;
+    }
+
+
+    img.logo {
+        display: block;
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin: 20px;
+        margin-left: 25%;
+    }
+
+
+
+    .searchbar {
+        float: left;
+        margin-left: 8%;
+        line-height: 120px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        height: 30px;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 6px;
+    }
+
+
+    .menu {
+        height: 40px;
+    }
+
+
+
+    .nav li {
+        list-style: none;
+        float: left;
+        line-height: 40px;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+        .nav li.first {
+            margin-left: 150px;
+        }
+
+
+
+
+
+        .nav li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+            .nav li a:hover {
+                color: yellow;
+            }
+
+        .nav li ul.dropdown {
+            position: relative;
+            z-index: 1;
+        }
+
+            .nav li ul.dropdown li {
+                display: none;
+            }
+
+        .nav li:hover .dropdown li {
+            display: block;
+            background-image: url(dropdownback.png);
+        }
+
+  
+
+    span:before {
+        content: "";
+        display: block;
+        width: 35%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        left: 5%;
+        top: 250px;
+        z-index: -2;
+    }
+
+    h3 {
+        font-style: italic;
+        font-size: 35px;
+        color: gray;
+        max-width: 250px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    span:after {
+        content: "";
+        display: block;
+        width: 35%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        right: 5%;
+        top: 250px;
+        z-index: -2;
+    }
+
+
+
+
+
+
+    .middletop img {
+        border: 1px solid black;
+        margin-top: 10px;
+        width:100%;
+        height:auto;
+    }
+
+
+    .middlebot {
+        margin-top: 10px;
+        height: 710px;
+        <!-- background-color: orange; -->
+    }
+
+    .firstrow {
+        height: 350px;
+        <!-- background-color: gray; -->
+        <!-- margin-bottom: 10px; -->
+    }
+
+        .firstrow div {
+            box-sizing: border-box;
+            margin-left: 2.5%;
+            width: 30.3%;
+            border: 1px solid black;
+            float: left;
+            text-align: center;
+        }
+
+        .firstrow a {
+            text-decoration: none;
+            color: white;
+        }
+
+    .fruit {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(fruit.png);
+        background-size: cover;
+    }
+
+
+
+    .vegetable {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(vegetable.png);
+        background-size: cover;
+    }
+
+
+
+    .meat {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(meat.png);
+        background-size: cover;
+    }
+
+
+
+    .secondrow {
+        <!-- background-color: gray; -->
+        height: 350px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+        .secondrow a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .secondrow div {
+            box-sizing: border-box;
+            margin-left: 2.5%;
+            width: 30.3%;
+            height: 350px;
+            border: 1px solid black;
+            float: left;
+        }
+
+    .baverage {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(drink.png);
+        background-size: cover;
+    }
+
+    .dairy {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(dairy.png);
+        background-size: cover;
+    }
+
+    .fish {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(fish.png);
+        background-size: cover;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        background-color: #a3a0a0;
+        margin-top: 10px;
+    }
+
+    .foottop {
+        width: 100%;
+        height: 30px;
+        background-color: #1d1b1b;
+    }
+
+    .developer {
+        text-align: center;
+        font-family: 'Times New Roman';
+        padding-bottom: 5px;
+    }
+}
+
+
+
+/*for desktop*/
+@media only screen and (min-width: 1024px){
+    * {
+        box-sizing: border-box;
+    }
+
+    .reset {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .clearfix::after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .header {
+        width: 100%;
+        height: 200px;
+        
+        background-image:url(headerback2.jpg);
+        background-size:cover;
+    }
+
+    .h_top {
+        width: 100%;
+        height: 40px;
+        background-color: #000000;
+    }
+
+    .topcon {
+        height: 40px;
+        background-color: #000000;
+        clear: both;
+    }
+
+    .topleft {
+        width: 300px;
+        height: 40px;
+    }
+
+
+
+    .leftTxt {
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+        .leftTxt a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+    .topright {
+        width: auto;
+        height: 40px;
+    }
+
+    .rightTxt {
+        line-height: 40px;
+    }
+
+
+        .rightTxt li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+            .rightTxt li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+
+                .rightTxt li a:hover {
+                    color: yellow;
+                }
+
+    .material-icons {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    .botcon {
+        height: 120px;
+        
+    }    
+    
+
+    img.logo {
+        display: block;
+        width: 80px;
+        height: 80px;
+        float: left;
+        
+        margin:20px;
+        margin-left:25%;
+    }    
+        
+      
+
+    .searchbar {
+        float: left;
+        margin-left: 8%;
+        line-height: 120px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        height: 30px;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 6px;
+    }
+
+
+    .menu {
+        height: 40px;
+    }
+
+
+
+    .nav li {
+        list-style: none;
+        float: left;
+        line-height: 40px;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+        .nav li.first {
+            margin-left: 150px;
+        }
+
+
+
+
+
+        .nav li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+            .nav li a:hover {
+                color: yellow;
+            }
+
+        .nav li ul.dropdown {
+            position: relative;
+            z-index: 1;
+        }
+
+            .nav li ul.dropdown li {
+                display: none;
+            }
+
+        .nav li:hover .dropdown li {
+            display: block;
+            background-image: url(dropdownback.png);
+            
+        }
+
+  
+
+    span:before {
+        content: "";
+        display: block;
+        width: 35%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        left: 5%;
+        top: 250px;
+        z-index: -2;
+        
+    }
+
+    h3 {
+        font-style: italic;
+        font-size: 35px;
+        color: gray;
+        max-width: 250px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    span:after {
+        content: "";
+        display: block;
+        width: 35%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        right: 5%;
+        top: 250px;
+        z-index: -2;
+        
+    }
+
+  
+
+   
+
+ 
+    .middletop img {
+        border: 1px solid black;
+        margin-top: 10px;
+    }
+
+
+    .middlebot {
+        margin-top: 10px;
+        height: 710px;
+        <!-- background-color: orange; -->
+    }
+
+    .firstrow {
+        height: 350px;
+        <!-- background-color: gray; -->
+        <!-- margin-bottom: 10px; -->
+    }
+
+        .firstrow div {
+            box-sizing: border-box; 
+            margin-left: 2.5%;
+            width: 30.3%;
+            border: 1px solid black;
+            float: left;
+            text-align: center;
+        }
+
+        .firstrow a {
+            text-decoration: none;
+            color: white;
+        }
+    .firstrow a:hover {
+        text-decoration: underline;
+    }
+
+    .fruit {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(fruit.png);
+        background-size: cover;
+    }
+
+
+
+    .vegetable {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(vegetable.png);
+        background-size: cover;
+    }
+
+
+
+    .meat {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(meat.png);
+        background-size: cover;
+    }
+
+
+
+    .secondrow {
+        <!-- background-color: gray; -->
+        height: 350px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+        .secondrow a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .secondrow a:hover{
+                text-decoration:underline;
+            }
+
+            .secondrow div {
+                box-sizing: border-box;
+                margin-left: 2.5%;
+                width: 30.3%;
+                height: 350px;
+                border: 1px solid black;
+                float: left;
+            }
+
+    .baverage {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(drink.png);
+        background-size: cover;
+    }
+
+    .dairy {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(dairy.png);
+        background-size: cover;
+    }
+
+    .fish {
+        line-height: 350px;
+        font-size: 40px;
+        font-weight: bold;
+        opacity: .8;
+        background-image: url(fish.png);
+        background-size: cover;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        background-color: #a3a0a0;
+        margin-top:10px;
+    }
+
+    .foottop {
+        width: 100%;
+        height: 30px;
+        background-color: #1d1b1b;
+    }
+
+    .developer {
+        text-align: center;
+        font-family: 'Times New Roman';
+        padding-bottom: 5px;
+    }
+}
+
+

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products><meat><img>foodontable.png</img><name>aaa</name><price>12</price><inventory>3</inventory><item_number>00006</item_number></meat><meat><img>pork.png</img><name>pork</name><price>1.99</price><item_number>00007</item_number><inventory>30</inventory></meat><meat><img>beef.png</img><name>beef</name><price>1</price><item_number>3</item_number><inventory>2</inventory></meat><meat><img>tomato.PNG</img><name>addnew</name><price>33</price><item_number>00001</item_number><inventory>15</inventory></meat></products>

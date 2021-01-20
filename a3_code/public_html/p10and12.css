@@ -1,0 +1,226 @@
+/*
+P10 and P12 css
+Liu Qichen
+40055916
+*/
+
+@media only screen and (max-width: 1100px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .left-nav {
+    background-color: #05385b;
+    width: 12rem;
+    height: 7rem;
+    float: left;
+  }
+
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+  }
+
+  .nav-list li {
+    padding: 4.5px;
+    border-bottom: dotted 1px dimgrey;
+  }
+
+  a {
+    display: block;
+    color: snow;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: darkgray;
+  }
+
+  .header {
+    background-color: #05385b;
+    width: 100%;
+    height: 7rem;
+  }
+
+  .title {
+    height: 7rem;
+    color: snow;
+    padding-top: 1rem;
+    padding-left: 15rem;
+  }
+
+  .box {
+    height: auto;
+    padding: 0;
+    background-color: #dddddd;
+    padding-left: 4rem;
+    font-family: "Times New Roman", serif;
+  }
+
+  .box p {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .save-button {
+    width: 60px;
+    background-color: #05385b;
+    color: snow;
+  }
+
+  table, th, td {
+    width: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th {
+    background-color: #05385b;
+    color: snow;
+    height: 3rem;
+  }
+
+  td {
+    height: 2rem;
+  }
+
+  button {
+    border: none;
+  }
+
+  button:hover {
+    background-color: grey;
+  }
+}
+
+@media only screen and (min-width: 1101px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .left-nav {
+    background-color: #05385b;
+    width: 12rem;
+    height: 100vh;
+    float: left;
+  }
+
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
+  }
+
+  .nav-list li {
+    padding: 5px;
+    border-bottom: dotted 1px dimgrey;
+  }
+
+  a {
+    display: block;
+    color: snow;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: darkgray;
+  }
+
+  .header {
+    background-color: #05385b;
+    width: 100%;
+    height: 7rem;
+  }
+
+  .title {
+    height: 7rem;
+    color: snow;
+    padding-top: 1rem;
+    padding-left: 15rem;
+  }
+
+  .box {
+    height: auto;
+    padding: 0;
+    background-color: #dddddd;
+    padding-left: 15rem;
+    font-family: "Times New Roman", serif;
+  }
+
+  .box p {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .save-button {
+    width: 60px;
+    background-color: #05385b;
+    color: snow;
+  }
+
+  table, th, td {
+    width: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th {
+    background-color: #05385b;
+    color: snow;
+    height: 3rem;
+  }
+
+  td {
+    height: 2rem;
+  }
+
+  button {
+    border: none;
+  }
+
+  button:hover {
+    background-color: grey;
+  }
+}
